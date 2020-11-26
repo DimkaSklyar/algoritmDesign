@@ -1,0 +1,16 @@
+.ground {
+  background: url("..img/blacklivesmatter/section-bg.png") no-repeat;
+}
+
+.ground-title {
+  font-family: 'Inria Serif', serif;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 64px;
+}
+
+.ground-button {
+  width: 170px;
+  height: 48px;
+}
+/*# sourceMappingURL=ground.css.map */
