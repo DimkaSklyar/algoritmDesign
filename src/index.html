@@ -12,6 +12,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Inria+Serif:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
   <link rel="stylesheet" href="css/style.css">
   <title>ACNC</title>
 </head>
@@ -150,30 +152,30 @@
           sky was a dead black, and the stars had ceased to twinkle.</div>
         <div class="row portfolio-content-up">
           <div class="col-4 portfolio-card">
-            <div class="portfolio-img portfolio-img-first"><img src="img/portfolio/card1.png" alt="">
+            <div class="portfolio-img portfolio-img-first"><img class="img" src="img/portfolio/card1.png" alt="">
               <div class="portfolio-plus">
-                <img class="float-right" src="img/portfolio/plus.png" alt="">
+                <img class="float-right plus-plus" src="img/portfolio/plus.png" alt="">
                 <div class="plus-up-title">Web Design</div>
                 <div class="plus-title">Almost Landing</div>
               </div>
             </div>
           </div>
           <div class="col-4 portfolio-card">
-            <div class="portfolio-img"><img src="img/portfolio/card2.png" alt=""></div>
+            <div class="portfolio-img"><img class="img" src="img/portfolio/card2.png" alt=""></div>
           </div>
           <div class="col-4 portfolio-card">
-            <div class="portfolio-img"><img src="img/portfolio/card3.png" alt=""></div>
+            <div class="portfolio-img"><img class="img" src="img/portfolio/card3.png" alt=""></div>
           </div>
         </div>
         <div class="row portfolio-content-midle">
           <div class="col-4 portfolio-card">
-            <div class="portfolio-img"><img src="img/portfolio/card4.png" alt=""></div>
+            <div class="portfolio-img"><img class="img" src="img/portfolio/card4.png" alt=""></div>
           </div>
           <div class="col-4 portfolio-card">
-            <div class="portfolio-img"><img src="img/portfolio/card5.png" alt=""></div>
+            <div class="portfolio-img"><img class="img" src="img/portfolio/card5.png" alt=""></div>
           </div>
           <div class="col-4 portfolio-card">
-            <div class="portfolio-img"><img src="img/portfolio/card6.png" alt=""></div>
+            <div class="portfolio-img"><img class="img" src="img/portfolio/card6.png" alt=""></div>
           </div>
         </div>
         <button class="row button-transparent portfolio-button" type="button">Explore All
@@ -204,8 +206,8 @@
             <div class="choice-skils">Digital Director, Microsoft</div>
           </div>
           <!-- 1 -->
-          <div class="choice-people">
-            <a href="" class="people-link"><img class="choice-circle" src="img/choice/pep1.png" alt=""></a>
+          <div class="choice-people align-items-center">
+            <a href="" class="people-link"><img class="choice-circle active" src="img/choice/pep1.png" alt=""></a>
             <a href="" class="people-link"><img class="choice-circle" src="img/choice/pep2.png" alt=""></a>
             <a href="" class="people-link"><img class="choice-circle" src="img/choice/pep3.png" alt=""></a>
             <a href="" class="people-link"><img class="choice-circle" src="img/choice/pep4.png" alt=""></a>
@@ -229,6 +231,136 @@
         <div class="col-6 team-description">Apparently we had reached a great height in the atmosphere, for the sky was
           a dead black, and the stars had ceased to twinkle.</div>
       </div>
+      <!-- slider -->
+      <div class="swiper-container">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div class=" team-card">
+              <div class="team-card-img">
+                <div class="img-bg"><img class="img" src="img/team/Bitmap.png" alt=""></div>
+                <img class="img-icon" src="img/team/fb.png" alt=""></div>
+              <div class="team-name">Hugo Saavedra</div>
+              <div class="team-description">Developer</div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="team-card">
+              <div class="team-card-img">
+                <div class="img-bg"><img class="img" src="img/team/Bitmap (1).png" alt=""></div><img class="img-icon"
+                  src="img/team/inst.png" alt=""></div>
+              <div class="team-name">Angu Tamba</div>
+              <div class="team-description">Manager</div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="team-card">
+              <div class="team-card-img">
+                <div class="img-bg"><img class="img" src="img/team/Bitmap (2).png" alt=""></div><img class="img-icon"
+                  src="img/team/tw.png" alt=""></div>
+              <div class="team-name">Hugo Saavedra</div>
+              <div class="team-description">Developer</div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="team-card">
+              <div class="team-card-img">
+                <div class="img-bg"><img class="img" src="img/team/Bitmap.png" alt=""></div><img class="img-icon"
+                  src="img/team/fb.png" alt=""></div>
+              <div class="team-name">Hugo Saavedra</div>
+              <div class="team-description">Developer</div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="team-card">
+              <div class="team-card-img">
+                <div class="img-bg"><img class="img" src="img/team/Bitmap (2).png" alt=""></div><img class="img-icon"
+                  src="img/team/tw.png" alt=""></div>
+              <div class="team-name">Hugo Saavedra</div>
+              <div class="team-description">Developer</div>
+            </div>
+          </div>
+          
+          
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+      </div>
+      <!-- slider -->
+    </div>
+  </section>
+  <section class="blog">
+    <div class="container">
+      <div class="row justify-content-between blog-text">
+        <div class="col-3 blog-title">Our Blog</div>
+        <div class="col-6 blog-description">Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle.</div>
+      </div>
+      <!-- slider -->
+      <div class="swiper-container">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div class=" blog-card">
+              <div class="blog-card-img"><img class="img-bg" src="img/blog/Bitmap.png" alt=""></div>
+              <div class="blog-card-uptitle">Web Design</div>
+              <div class="blog-card-title">Almost before we knew it, we had left the ground</div>
+              <div class="blog-card-description d-flex align-items-center ">
+                <div class="description">Nicolina Lindholm</div>
+                <div class="description-data">Feb 20, 2020</div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class=" blog-card">
+              <div class="blog-card-img"><img class="img-bg" src="img/blog/Bitmap (1).png" alt=""></div>
+              <div class="blog-card-uptitle">Trends</div>
+              <div class="blog-card-title">Before we knew it, we had left the ground</div>
+              <div class="blog-card-description d-flex align-items-center ">
+                <div class="description">Shen Zhi</div>
+                <div class="description-data">Feb 19, 2020</div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class=" blog-card">
+              <div class="blog-card-img"><img class="img-bg" src="img/blog/Bitmap (2).png" alt=""></div>
+              <div class="blog-card-uptitle">Marketing</div>
+              <div class="blog-card-title">We knew it, we had left the ground almost</div>
+              <div class="blog-card-description d-flex align-items-center ">
+                <div class="description">Stephanie Bailey</div>
+                <div class="description-data">Feb 18, 2020</div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class=" blog-card">
+              <div class="blog-card-img"><img class="img-bg" src="img/blog/Bitmap.png" alt=""></div>
+              <div class="blog-card-uptitle">Web Design</div>
+              <div class="blog-card-title">Almost before we knew it, we had left the ground</div>
+              <div class="blog-card-description d-flex align-items-center ">
+                <div class="description">Nicolina Lindholm</div>
+                <div class="description-data">Feb 20, 2020</div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class=" blog-card">
+              <div class="blog-card-img"><img class="img-bg" src="img/blog/Bitmap (1).png" alt=""></div>
+              <div class="blog-card-uptitle">Web Design</div>
+              <div class="blog-card-title">Almost before we knew it, we had left the ground</div>
+              <div class="blog-card-description d-flex align-items-center ">
+                <div class="description">Nicolina Lindholm</div>
+                <div class="description-data">Feb 20, 2020</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+      </div>
+      <!-- slider -->
     </div>
   </section>
   <section class="connect">
@@ -243,7 +375,7 @@
           <div class="col-5">
             <form class="form connect-form" action="#">
               <input class="input connect-email" placeholder="Your Email" type="text">
-              <input class="input connect-message" placeholder="Message" type="text">
+              <textarea  class="input connect-message " placeholder="Message" type="text"></textarea>
               <div class="button-color connect-button">Submit</div>
             </form>
           </div>
@@ -292,8 +424,17 @@
       </div>
     </div>
   </footer>
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script type="module">
+    import Swiper from 'https://unpkg.com/swiper/swiper-bundle.esm.browser.min.js'
+  </script>
   <script src="js/main.js"></script>
 </body>
 

@@ -60,6 +60,26 @@
   border-radius: 5px;
 }
 
+.swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {
+  background-color: #FB7846;
+  margin: 0px 8px;
+  height: 16px;
+  width: 16px;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+}
+
+.active {
+  position: absolute;
+  border-radius: 50%;
+  border: 2px solid #F87853;
+  padding: 10px;
+  opacity: 1;
+}
+
 .header {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(250, 126, 74, 0.15)), to(rgba(106, 123, 227, 0.15))), #FFFFFF;
   background: linear-gradient(180deg, rgba(250, 126, 74, 0.15) 0%, rgba(106, 123, 227, 0.15) 100%), #FFFFFF;
@@ -176,15 +196,14 @@
 }
 
 .services-cards {
-  margin-bottom: 140px;
+  margin-bottom: 110px;
 }
 
 .ground {
-  background: url(img/blacklivesmatter/section-bg.png);
-}
-
-.ground-content {
-  margin-bottom: 250px;
+  background-image: url("../img/blacklivesmatter/section-bg.png");
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  padding-top: 190px;
 }
 
 .ground-content-right {
@@ -297,10 +316,6 @@
   border-radius: 10px;
 }
 
-.portfolio-img img {
-  z-index: 1;
-}
-
 .portfolio-img-first {
   position: relative;
 }
@@ -311,9 +326,10 @@
   top: 15px;
   right: 15px;
   border-radius: 10px;
-  width: 338px;
-  height: 352px;
+  height: 85%;
+  width: 85%;
   padding: 32px 32px 40px 32px;
+  margin: 16px;
 }
 
 .plus {
@@ -326,7 +342,6 @@
   font-weight: 700;
   font-size: 18px;
   line-height: 32px;
-  margin-top: 240px;
 }
 
 .plus-title {
@@ -363,6 +378,10 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  background: url("../img/testimonials/Oval-bg-tran.png") bottom left/contain no-repeat, url("../img/testimonials/Oval-bg.png") top right/contain no-repeat;
+  background-size: 50%, 25%;
+  background-repeat: no-repeat, no-repeat;
+  background-position: 0% 100%, right top;
 }
 
 .testimonials-title {
@@ -431,8 +450,8 @@
 .choice-people {
   max-width: 370px;
   margin: auto;
-  margin-top: 40px;
-  margin-bottom: 72px;
+  margin-top: 30px;
+  margin-bottom: 62px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -443,6 +462,8 @@
 
 .choice-circle {
   border-radius: 50%;
+  opacity: 0.5;
+  position: relative;
 }
 
 .choice-icon {
@@ -475,12 +496,124 @@
   line-height: 32px;
 }
 
+.team-card {
+  margin-bottom: 54px;
+}
+
+.team-name {
+  font-family: 'Inria Serif', serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  margin-top: 25px;
+}
+
+.team-description {
+  margin-top: 3px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: rgba(19, 27, 66, 0.502378);
+}
+
+.img-bg {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.img-icon {
+  position: absolute;
+  position: absolute;
+  top: 64%;
+  -webkit-transform: translate(0, -64%);
+          transform: translate(0, -64%);
+  right: 10px;
+}
+
+.swiper-container {
+  max-width: 1170px;
+  height: 500px;
+}
+
+.blog-text {
+  margin-top: 106px;
+  margin-bottom: 100px;
+}
+
+.blog-title {
+  font-family: 'Inria Serif', serif;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 64px;
+}
+
+.blog-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+}
+
+.blog-card {
+  margin-bottom: 54px;
+}
+
+.blog-card-uptitle {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 32px;
+  color: #FB7846;
+  margin-bottom: 25px;
+  margin-top: 5px;
+  margin-top: 25px;
+}
+
+.blog-card-title {
+  margin-top: 14px;
+  font-family: 'Inria Serif', serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.blog-card-description {
+  margin-top: 10px;
+}
+
+.blog-name {
+  font-family: 'Inria Serif', serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  margin-top: 25px;
+}
+
+.blog-description {
+  margin-top: 3px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: rgba(19, 27, 66, 0.502378);
+}
+
+.description {
+  font-size: 16px;
+  margin-right: 32px;
+}
+
+.description-data {
+  font-size: 16px;
+  line-height: 32px;
+  color: rgba(19, 27, 66, 0.502378);
+}
+
 .container-connect-bg {
+  background: #2F3A62 url("../img/connect/Oval (1).png") top right/contain no-repeat;
   max-width: 1300px;
-  background: -webkit-gradient(linear, left bottom, left top, from(#2F3A62), to(#2F3A62)), -webkit-gradient(linear, left top, left bottom, from(rgba(250, 126, 74, 0.15)), to(rgba(106, 123, 227, 0.15)));
-  background: linear-gradient(0deg, #2F3A62, #2F3A62), linear-gradient(180deg, rgba(250, 126, 74, 0.15) 0%, rgba(106, 123, 227, 0.15) 100%);
   border-radius: 7px;
   margin: auto;
+  background-size: 50%, 25%;
 }
 
 .input {
@@ -489,6 +622,17 @@
           box-sizing: border-box;
   border-radius: 7px;
   padding: 9px 16px;
+}
+
+.connect {
+  margin-top: 96px;
+}
+
+.connect-content {
+  background: url("../img/connect/Oval.png") bottom left/contain no-repeat;
+  background-size: 50%, 25%;
+  background-repeat: no-repeat;
+  background-position: 70% 100%;
 }
 
 .connect-title {
@@ -526,6 +670,7 @@
   margin-bottom: 16px;
   width: 100%;
   height: 90px;
+  resize: none;
 }
 
 .connect-button {
@@ -546,6 +691,7 @@
 }
 
 .footer-subtitle {
+  text-transform: uppercase;
   font-weight: 700;
   font-size: 18px;
   line-height: 32px;
